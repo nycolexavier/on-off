@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vela</title>
+    <title>Mudar de cor</title>
+    <link rel="shortcut icon" href="velaLigada.svg" type="image/x-icon">
 
     <style>
         body{
-            color: white;
-            background-color: rgb(195, 235, 18);
+            color: black;
+            background-color: rgb(255, 251, 0);
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Acender e apagar a vela</h1>
+    <h1>Mudar de cor com JavaScript</h1>
     <img id="velaDesligada" src="velaDesligada.svg" alt="vela desligada">
-    <button onclick="document.getElementById('velaDesligada').src='velaLigada.svg'" >Acender</button>
-    <button onclick="document.getElementById('velaDesligada').src='velaDesligada.svg'" >Apagar</button>
+    <button onclick="document.getElementById('velaDesligada').src='velaLigada.svg'" >Verde</button>
+    <button onclick="document.getElementById('velaDesligada').src='velaDesligada.svg'" >Vermelho</button>
 </body>
 </html>
